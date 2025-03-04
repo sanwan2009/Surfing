@@ -1,7 +1,7 @@
 # Surfing
 
 <h1 align="center">
-  <img src="./folder/Box.svg" alt="BOXMETA" width="200">
+  <img src="./folder/logo.svg" alt="BOXMETA" width="200">
   <br>BOXMETA<br>
 </h1>
 
@@ -15,18 +15,20 @@
         <img alt="Downloads" src="https://img.shields.io/github/downloads/MoGuangYu/Surfing/total?label=Module Downloads&labelColor=00b56a&logo=git&logoColor=white">
     </a>
 </div>
+<br>
+<div align="center">
+    <strong>English</strong> | <a href="./README_CN.md">简体中文</a>
+</div>
 
-#
+---
 
-**English** | [简体中文](./README_CN.md)
-
-This project is a [Magisk](https://github.com/topjohnwu/Magisk), [Kernelsu](https://github.com/tiann/KernelSU), [APatch](https://github.com/bmax121/APatch) module for Clash, mihomo, sing-box, v2ray, xray, hysteria. It supports REDIRECT (TCP only), TPROXY (TCP + UDP) transparent proxy, TUN (TCP + UDP), and hybrid mode REDIRECT (TCP) + TUN (UDP) proxy.
+This project is a [Magisk](https://github.com/topjohnwu/Magisk), [Kernelsu](https://github.com/tiann/KernelSU), [APatch](https://github.com/bmax121/APatch) module for Clash/mihomo, sing-box, v2ray, xray, hysteria. It supports REDIRECT (TCP only), TPROXY (TCP + UDP) transparent proxy, TUN (TCP + UDP), and hybrid mode REDIRECT (TCP) + TUN (UDP) proxy.
 
 Based on upstream integration for one-stop service, ready to use. Suitable for:
 - Lazy people
 - Beginners
 
-The project's theme and configuration focus on [clash.Meta](https://github.com/MetaCubeX/Clash.Meta).
+The project's theme and configuration focus on [Clash/mihomo.Meta](https://github.com/MetaCubeX/Clash.Meta).
 
 This module needs to be used in a Magisk/Kernelsu environment. If you don't know how to configure the required environment, you might need applications like ClashForAndroid, v2rayNG, surfboard, SagerNet, AnXray.
 
@@ -78,7 +80,7 @@ Please decide whether to use the Surfing module only after clearly understanding
 - After installation is complete, add your subscription address to `config.yaml` and restart the module service via the switch.
 - Due to network reasons, all **rules**/**subscriptions** may not be downloaded automatically. Please manually refresh in the panel.
   - If the above fails, ensure your network environment is normal.
-- Web App: [Download](https://github.com/MoGuangYu/Surfing/raw/main/folder/Web_v5.5_release.apk) | [View Source](./folder/main.lua)
+- Web App: [Download](https://github.com/MoGuangYu/Surfing/raw/main/folder/Web_6.3_release.apk) | [View Source](./folder/main.lua)
   - It is only a graphical auxiliary tool used for portable browsing and managing the backend route data, with no other unnecessary uses.
 
 > The module has a built-in GUI that can be accessed locally via a browser or used online via the app. There is essentially no difference between the two.

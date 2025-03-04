@@ -1,11 +1,11 @@
 # Surfing
 
 <h1 align="center">
-  <img src="./folder/Box.svg" alt="BOXMETA" width="200">
+  <img src="./folder/logo.svg" alt="BOXMETA" width="200">
   <br>BOXMETA<br>
 </h1>
 
-<h3 align="center">Magisk、Kernelsu、APatch</h3>
+<h3 align="center">Magisk, Kernelsu, APatch</h3>
 
 <div align="center">
     <a href="https://github.com/MoGuangYu/Surfing/releases/tag/Prerelease-Alpha">
@@ -15,23 +15,25 @@
         <img alt="Downloads" src="https://img.shields.io/github/downloads/MoGuangYu/Surfing/total?label=Module Downloads&labelColor=00b56a&logo=git&logoColor=white">
     </a>
 </div>
+<br>
+<div align="center">
+    <a href="./README.md">English</a> | <strong>简体中文</strong>
+</div>
 
-#
+---
 
-[English](./README.md) | **简体中文**
+本项目为 Clash/mihomo、sing-box、v2ray、xray、hysteria 的 [Magisk](https://github.com/topjohnwu/Magisk) 、 [Kernelsu](https://github.com/tiann/KernelSU) 、 [APatch](https://github.com/bmax121/APatch) 模块。支持 REDIRECT（仅 TCP）、TPROXY（TCP + UDP）透明代理，支持 TUN（TCP + UDP）亦可 REDIRECT（TCP）+ TUN（UDP） 混合模式代理。
 
-  本项目为 Clash、mihomo、sing-box、v2ray、xray、hysteria 的 [Magisk](https://github.com/topjohnwu/Magisk) 、 [Kernelsu](https://github.com/tiann/KernelSU) 、 [APatch](https://github.com/bmax121/APatch) 模块。支持 REDIRECT（仅 TCP）、TPROXY（TCP + UDP）透明代理，支持 TUN（TCP + UDP）亦可 REDIRECT（TCP）+ TUN（UDP） 混合模式代理。
-  
-  基于上游为集成式一体服务、即刷即用   
-  此适用以下人群：
-  - 懒癌
-  - 小白
+基于上游为集成式一体服务、即刷即用   
+此适用以下人群：
+- 懒癌
+- 小白
 
-  项目主题及配置仅围绕 [clash.Meta](https://github.com/MetaCubeX/Clash.Meta)  
-  
-  本模块需在 Magisk/Kernelsu 环境进行使用，如果你不知道如何配置所需环境，你可能需要像 ClashForAndroid、v2rayNG、surfboard、SagerNet、AnXray 等应用程序。  
-  
-  [Windows 用户](https://github.com/MoGuangYu/Surfing/releases/tag/Windows)
+项目主题及配置仅围绕 [Clash/mihomo.Meta](https://github.com/MetaCubeX/Clash.Meta)  
+
+本模块需在 Magisk/Kernelsu 环境进行使用，如果你不知道如何配置所需环境，你可能需要像 ClashForAndroid、v2rayNG、surfboard、SagerNet、AnXray 等应用程序。  
+
+[Windows 用户](https://github.com/MoGuangYu/Surfing/releases/tag/Windows)
 
 # Surfing用户声明及免责
 
@@ -81,7 +83,7 @@
 - 首次安装完成后，于`config.yaml`添加你的订阅地址，并通过开关重启一下模块服务
 - 可能因网络原因不会自动下载完全部 **规则**/**订阅**，请至面板手动刷新一下
   - 如上述失败，并确保你的网络环境正常
-- Web App：[Download](https://github.com/MoGuangYu/Surfing/raw/main/folder/Web_v5.5_release.apk) | [查看源码](./folder/main.lua)
+- Web App：[Download](https://github.com/MoGuangYu/Surfing/raw/main/folder/Web_6.3_release.apk) | [查看源码](./folder/main.lua)
   - 仅为图形辅助工具，用于便携浏览及管理后台路由数据，并无其它多余用途
 
 > 模块已内置 Gui 可通过浏览器本地访问使用，亦或者使用 App 在线访问使用，两者本质上并无差异
